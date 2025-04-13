@@ -1,0 +1,12 @@
+// --- 貼入像這樣的內容 ---
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.fb.mytwitchapp", // <-- 您的 Package Name
+    "sha256_cert_fingerprints": [
+      "F3:D5:13:84:7A:53:D4:5B:FB:B7:D0:FD:48:87:3E:BE:37:15:F7:80:6C:23:45:1D:A6:4B:D7:A8:18:60:C7:71" // <-- 您的 SHA-256 指紋
+      // 如果有多個指紋，用逗號隔開
+    ]
+  }
+}]
